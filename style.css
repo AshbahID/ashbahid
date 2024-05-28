@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+#text-navbar{
+    color: #f8f9fa;
+}
+#header-awal{
+    background-color: orange;
+}
+
+
+.navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: white;
+    transition: width 0.4s ease;
+    -webkit-transition: width 0.4s ease;
+}
+.navbar-nav .nav-link:hover {
+    color: white;
+}
+.navbar-nav .nav-link:hover::after {
+    width: 100%;
+    left: 0;
+    background: white;
+}
+.navbar-toggler {
+    border: none;
+}
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml; charset=utf8, <svg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"><path stroke="rgba(0, 0, 0, 0.5)" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/></svg>');
+}
+
+.card-img-top {
+    height: 180px;
+    object-fit: cover;
+}
+.card-title {
+    font-size: 1rem;
+    font-weight: bold;
+}
+.card-text {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+.card-label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #ff5722;
+    color: white;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 0.25rem;
+}
+.container {
+    padding: 2rem 0;
+}
+
+
+.ashbah{
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+
+.bagian{
+   margin-right: 20px;
+}
+
+
+footer {
+    background-color: #1E3A5F;
+}
+
+footer img {
+    max-width: 100px;
+}
+
+footer h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+}
+
+footer a {
+    color: #FFD700;
+}
+
+footer a:hover {
+    color: #FFC107;
+}
+
+footer .fab {
+    font-size: 1.5rem;
+}
+
+.divider {
+    width: 1px;
+    height: 200px; /* Sesuaikan tinggi dengan konten footer */
+    background-color: white;
+    margin: 0 20px; /* Sesuaikan jarak dari elemen lain jika diperlukan */
+}
+
+#footer-akhir {
+    background-color: #F97300;
+}
